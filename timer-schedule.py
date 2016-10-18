@@ -4,9 +4,8 @@ from time import sleep
 from datetime import datetime, time
 import logging
 import logging.config
-import os
-import sys
-import signal
+import os, sys, signal
+
 # Define Logging Settings
 scriptFilename = os.path.basename(sys.argv[0]).replace(".py", ".log")
 
